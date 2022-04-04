@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# The live site link for this React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple Review site [Live Site](https://nimble-faun-182f51.netlify.app/).
+
+# The main focus on this project
+Markup : *Mainly use Routes for navigate pages
+         *Use Charts with rechart
+         *Use different custom hooks
+         *Different question answer are added in Blogs
 
 ## Available Scripts
 
