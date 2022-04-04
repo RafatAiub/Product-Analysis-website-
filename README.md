@@ -1,12 +1,12 @@
 # The live site link for this React App
 
-A simple Review site [Live Site](https://nimble-faun-182f51.netlify.app/).
+A simple Review site [Live Site Netlify Deploy Link](https://nimble-faun-182f51.netlify.app/).
 
 # The main focus on this project
-Markup : *Mainly use Routes for navigate pages
-         *Use Charts with rechart
-         *Use different custom hooks
-         *Different question answer are added in Blogs
+Markup : * Mainly use Routes for navigate pages
+         * Use Charts with rechart
+         * Use different custom hooks
+         * Different question answer are added in Blogs
 
 ## Available Scripts
 
