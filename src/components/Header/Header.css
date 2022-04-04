@@ -1,0 +1,14 @@
+nav a {
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+nav a:hover {
+    color: azure;
+}
+
+.header nav {
+    padding-top: 15px;
+    height: 50px;
+    background-color: black;
+}

@@ -3,8 +3,7 @@ import React from 'react';
 const Error404 = () => {
     return (
         <div>
-            <h1>404 Error, No such page Found.</h1>
-            <img src="" alt="" />
+            <img className='w-75' src="404-error-page-not-found.jpg" alt="" />
 
         </div>
     );
