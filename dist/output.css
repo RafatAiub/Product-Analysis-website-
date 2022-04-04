@@ -478,12 +478,25 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin: 0.75rem;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .block {
   display: block;
 }
 
 .inline {
   display: inline;
+}
+
+.flex {
+  display: flex;
 }
 
 .h-8 {
@@ -496,6 +509,30 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-full {
   width: 100%;
+}
+
+.w-3\.5 {
+  width: 0.875rem;
+}
+
+.w-3 {
+  width: 0.75rem;
+}
+
+.w-1\.5 {
+  width: 0.375rem;
+}
+
+.w-1 {
+  width: 0.25rem;
+}
+
+.w-px {
+  width: 1px;
+}
+
+.w-4\/5 {
+  width: 80%;
 }
 
 .justify-center {
@@ -514,6 +551,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-radius: 1rem;
 }
 
+.rounded {
+  border-radius: 0.25rem;
+}
+
 .bg-slate-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(203 213 225 / var(--tw-bg-opacity));
@@ -522,6 +563,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-cyan-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(103 232 249 / var(--tw-bg-opacity));
 }
 
 .p-12 {
@@ -534,6 +580,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .p-3 {
   padding: 0.75rem;
+}
+
+.p-9 {
+  padding: 2.25rem;
+}
+
+.p-7 {
+  padding: 1.75rem;
 }
 
 .text-justify {
