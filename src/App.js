@@ -8,6 +8,7 @@ import Reviews from './components/Reviews/Reviews';
 import Header from './components/Header/Header';
 import Error404 from './components/NotFound/Error404'
 import Charts from './components/Dashboard/Charts';
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (
@@ -20,8 +21,9 @@ function App() {
         <Route path='/dashboard' element={<Charts></Charts>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
         <Route path='/about' element={<About></About>}></Route>
-        <Route path='*' element={<Error404></Error404>}></Route>
+        <Route path='/*' element={<Error404></Error404>}></Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }

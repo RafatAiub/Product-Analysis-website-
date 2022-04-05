@@ -1,10 +1,9 @@
 import React from 'react';
 import './review.css';
 
-const Review = (props) => {
-
-    const { name, reviews, rating } = props.review;
-    // const { name, reviews, rating } = props.view;
+const View = (props) => {
+    console.log(props);
+    const { name, reviews, rating } = props.view;
     return (
         <div className='single-review'>
             <div className='shadow-lg rounded-lg card'>
@@ -20,4 +19,4 @@ const Review = (props) => {
     );
 };
 
-export default Review;
+export default View;

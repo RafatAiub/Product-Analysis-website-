@@ -1,9 +1,25 @@
 import React from 'react';
+import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import useData from '../Hooks/useData';
+import Review from '../Reviews/Review';
 import Reviews from '../Reviews/Reviews';
+// import Review from '../Reviews/Review';
+import View from '../Reviews/View';
+// import Footer from '../Footer/Footer'
 import './Home.css'
 
 const Home = () => {
+    const url = 'customer.json';
+    const [data, setData] = useData(url);
+    let views = [];
+    console.log(setData);
+
+    for (let i = 0; i < 3; i++) {
+        views.push(data[i]);
+    }
+
+
     return (
         <div>
             <div className='home-page'>
@@ -18,8 +34,26 @@ const Home = () => {
             </div>
             <div>
                 <h1>Customers Reviews</h1>
+                <div className='button'><Link to="/reviews"><Button variant='outline-info'>Show All Reviews</Button></Link></div>
                 <Reviews></Reviews>
+
+                <div className='reviews-container'>
+                    <div className='review'>
+                        {/* {
+
+                            views.map(view => <View
+                                key={view.id}
+                                view={view}
+                            ></View>)
+                        } */}
+
+
+                    </div>
+
+                </div>
+
             </div>
+            {/* <Footer></Footer> */}
         </div>
     );
 };

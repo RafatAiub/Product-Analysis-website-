@@ -3,11 +3,13 @@ nav a {
     color: aqua;
     text-decoration: none;
     padding-left: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
 }
 
 nav a:hover {
-    color: azure;
-    font-size: large;
+    color: tomato;
+
 }
 
 .header nav {

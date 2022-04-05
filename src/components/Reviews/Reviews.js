@@ -20,8 +20,6 @@ const Reviews = () => {
 
             </div>
 
-            <Button>See All Reviews</Button>
-
         </div>
     );
 };
