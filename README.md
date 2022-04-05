@@ -3,10 +3,10 @@
 A simple Review site [Live Site Netlify Deploy Link](https://nimble-faun-182f51.netlify.app/).
 
 # The main focus on this project
-Markup : * Mainly use Routes for navigate pages
-         * Use Charts with rechart
-         * Use different custom hooks
-         * Different question answer are added in Blogs
+ * Mainly use Routes for navigate pages
+ * Use Charts with rechart
+ * Use different custom hooks
+ * Different question answer are added in Blogs
 
 ## Available Scripts
 

@@ -1,0 +1,17 @@
+.review {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 50px;
+}
+
+.single-review {
+    padding: 10px;
+
+}
+
+.single-review .card {
+    padding: 15px;
+    border-radius: 20px;
+    border: 1 px solid ghostwhite;
+    text-align: justify;
+}

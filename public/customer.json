@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Rafat",
+        "reviews": "I love this laptop! Super easy set up, sleek, and apparently this brand has better functionality in some ways than other laptops. Still trying to learn how to use it but definitely worth the price.",
+        "rating": 4
+    },
+    {
+        "id": 2,
+        "name": "Rohan",
+        "reviews": "Perfect I absolutely love this computer. Super fast and easy.",
+        "rating": 5
+    },
+    {
+        "id": 3,
+        "name": "Azrin",
+        "reviews": "I would NOT recommend this product!!! We purchased this for my daughter's college classes... we have had it 2 months",
+        "rating": 1
+    },
+    {
+        "id": 4,
+        "name": "Ahnaf",
+        "reviews": "Asus Is not easy to use. It is very difficult to set up and change screens when I am using it and do not want to change screens. To others, DO NOT BUY ASUS. GET any other brand, it could only be as bad and not be any worse.",
+        "rating": 1
+    },
+    {
+        "id": 5,
+        "name": "Arosh",
+        "reviews": "Very unhappy with this laptop. Had to return it. The screen kept flashing black screen every so often and for a brand new laptop that was a concern. Also, I am a senior and don't have the best eyesight. It was a real struggle for me to read the keys.",
+        "rating": 1
+    },
+    {
+        "id": 6,
+        "name": "Fabihan",
+        "reviews": "Runs great, keyboard includes numerical, and charger is light and small. The device itself feels a bit heavy, but nothing too serious.",
+        "rating": 5
+    }
+]
